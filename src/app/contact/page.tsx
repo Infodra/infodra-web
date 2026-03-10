@@ -129,17 +129,17 @@ export default function ContactPage() {
   return (
     <main>
       {/* Contact Page Hero Section */}
-      <section className="relative min-h-[600px] flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-950 text-white overflow-hidden">
+      <section className="relative min-h-[400px] flex items-center justify-center bg-gradient-to-br from-slate-900 via-slate-800 to-slate-950 text-white overflow-hidden">
         {/* Decorative gradient elements */}
         <div className="absolute top-20 left-10 w-80 h-80 bg-emerald-500 rounded-full mix-blend-screen filter blur-3xl opacity-10 animate-pulse" />
         <div className="absolute -bottom-20 right-20 w-96 h-96 bg-cyan-500 rounded-full mix-blend-screen filter blur-3xl opacity-10 animate-pulse" />
         <div className="absolute top-1/2 left-1/3 w-72 h-72 bg-emerald-600 rounded-full mix-blend-multiply filter blur-3xl opacity-5" />
 
-        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center z-10">
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight tracking-tight text-white">
+        <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12 text-center z-10">
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 leading-tight tracking-tight text-white">
             Get In Touch
           </h1>
-          <p className="text-lg md:text-xl mb-10 text-slate-200 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl mb-8 text-slate-200 max-w-2xl mx-auto leading-relaxed">
             Have questions? Our team is ready to help you find the perfect AI solution for your business.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

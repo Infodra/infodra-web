@@ -56,24 +56,9 @@ export function Footer() {
             <h4 className="font-semibold mb-5 text-sm uppercase tracking-wider text-blue-400">Products</h4>
             <ul className="space-y-3 text-gray-400">
               <li>
-                <Link href="/products/ai-video-translator" className="hover:text-blue-400 transition font-medium">
-                  Video Translator
-                </Link>
-              </li>
-              <li>
-                <Link href="/products/ai-user-manual-generation" className="hover:text-blue-400 transition font-medium">
-                  User Manual Generator
-                </Link>
-              </li>
-              <li>
-                <Link href="/products/ai-document-translator" className="hover:text-blue-400 transition font-medium">
-                  Document Translator
-                </Link>
-              </li>
-              <li>
-                <Link href="/products/bizlead-database" className="hover:text-blue-400 transition font-medium">
-                  BiZlead Database
-                </Link>
+                <a href="https://www.infodra.ai" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition font-medium">
+                  www.infodra.ai
+                </a>
               </li>
             </ul>
           </div>

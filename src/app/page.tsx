@@ -41,12 +41,14 @@ export default function Home() {
               We combine enterprise engineering expertise with AI-driven innovation to design secure, scalable, and future-ready technology systems that deliver measurable business impact.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Link
-                href="/products"
+              <a
+                href="https://www.infodra.ai"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block bg-green-500 text-white px-8 py-4 rounded-lg font-semibold text-lg tracking-wider hover:bg-green-600 transition transform hover:scale-105"
               >
-                Explore AI Solutions
-              </Link>
+                Explore Infodra AI
+              </a>
               <Link
                 href="/digital-solutions"
                 className="inline-block bg-transparent text-white px-8 py-4 rounded-lg font-semibold text-lg tracking-wider border-2 border-white hover:bg-white hover:text-slate-900 transition transform hover:scale-105"
