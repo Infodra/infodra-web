@@ -3,6 +3,9 @@
 import { useState, useRef } from "react";
 import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 
+// Note: metadata must be in a separate server component or layout for client components
+// For SEO, consider moving metadata to a layout.tsx in this folder
+
 const productsAndSolutions = [
   { value: "", label: "Select a product or solution..." },
   { category: "Products", items: [
@@ -13,14 +16,23 @@ const productsAndSolutions = [
     { value: "stafftrack", label: "StaffTrack" },
     { value: "all-products", label: "General Inquiry" },
   ]},
-  { category: "Digital Solutions", items: [
-    { value: "web-development", label: "Professional Website Development" },
-    { value: "seo-services", label: "SEO & Google Ranking Services" },
-    { value: "web-applications", label: "Custom Web Applications" },
-    { value: "business-automation", label: "Business Process Automation" },
-    { value: "cloud-migration", label: "Cloud Migration & Infrastructure Services" },
-    { value: "support-maintenance", label: "Ongoing Support & Maintenance Services" },
-    { value: "all-solutions", label: "All Digital Solutions / General Inquiry" },
+  { category: "Engineering", items: [
+    { value: "cad-design", label: "CAD Design & Engineering" },
+    { value: "3d-modeling", label: "3D Modeling & Technical Drafting" },
+    { value: "product-design", label: "Product Design & Development" },
+    { value: "assembly-drawing", label: "Assembly Drawing for Aftersale Market" },
+    { value: "prototyping", label: "Prototyping & Additive Manufacturing Design" },
+    { value: "reverse-engineering", label: "Reverse Engineering" },
+    { value: "all-engineering", label: "All Engineering Services / General Inquiry" },
+  ]},
+  { category: "Technology", items: [
+    { value: "custom-software", label: "Custom Software Development" },
+    { value: "system-integration", label: "System Integration & API Solutions" },
+    { value: "digital-platforms", label: "Scalable Digital Platforms" },
+    { value: "data-analytics", label: "Data Analytics & Business Intelligence" },
+    { value: "cybersecurity", label: "Cybersecurity & Compliance" },
+    { value: "mobile-development", label: "Mobile & Cross-Platform Development" },
+    { value: "all-technology", label: "All Technology Solutions / General Inquiry" },
   ]},
 ];
 
@@ -332,13 +344,13 @@ export default function ContactPage() {
                   />
                 </div>
 
-                {/* Products / Digital Solutions */}
+                {/* Products / Engineering / Technology */}
                 <div>
                   <label
                     htmlFor="productOrSolution"
                     className="block text-gray-700 font-semibold mb-2"
                   >
-                    Products / Digital Solutions
+                    Products / Engineering / Technology
                   </label>
                   <select
                     id="productOrSolution"
@@ -356,14 +368,23 @@ export default function ContactPage() {
                       <option value="stafftrack">StaffTrack</option>
                       <option value="all-products">General Inquiry</option>
                     </optgroup>
-                    <optgroup label="Digital Solutions">
-                      <option value="web-development">Professional Website Development</option>
-                      <option value="seo-services">SEO & Google Ranking Services</option>
-                      <option value="web-applications">Custom Web Applications</option>
-                      <option value="business-automation">Business Process Automation</option>
-                      <option value="cloud-migration">Cloud Migration & Infrastructure Services</option>
-                      <option value="support-maintenance">Ongoing Support & Maintenance Services</option>
-                      <option value="all-solutions">All Digital Solutions / General Inquiry</option>
+                    <optgroup label="Engineering">
+                      <option value="cad-design">CAD Design & Engineering</option>
+                      <option value="3d-modeling">3D Modeling & Technical Drafting</option>
+                      <option value="product-design">Product Design & Development</option>
+                      <option value="assembly-drawing">Assembly Drawing for Aftersale Market</option>
+                      <option value="prototyping">Prototyping & Additive Manufacturing Design</option>
+                      <option value="reverse-engineering">Reverse Engineering</option>
+                      <option value="all-engineering">All Engineering Services / General Inquiry</option>
+                    </optgroup>
+                    <optgroup label="Technology">
+                      <option value="custom-software">Custom Software Development</option>
+                      <option value="system-integration">System Integration & API Solutions</option>
+                      <option value="digital-platforms">Scalable Digital Platforms</option>
+                      <option value="data-analytics">Data Analytics & Business Intelligence</option>
+                      <option value="cybersecurity">Cybersecurity & Compliance</option>
+                      <option value="mobile-development">Mobile & Cross-Platform Development</option>
+                      <option value="all-technology">All Technology Solutions / General Inquiry</option>
                     </optgroup>
                   </select>
                 </div>

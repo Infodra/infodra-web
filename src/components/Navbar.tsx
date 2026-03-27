@@ -50,20 +50,20 @@ export function Navbar() {
               Home
             </Link>
 
-            <Link href="/products" className={`transition font-medium text-base ${
-              isActive("/products")
+            <Link href="/engineering" className={`transition font-medium text-base ${
+              isActive("/engineering")
                 ? "text-emerald-400 border-b-2 border-emerald-400 pb-1"
                 : "text-slate-300 hover:text-emerald-400"
             }`}>
-              Products
+              Engineering
             </Link>
 
-            <Link href="/digital-solutions" className={`transition font-medium text-base ${
-              isActive("/digital-solutions")
+            <Link href="/technology" className={`transition font-medium text-base ${
+              isActive("/technology")
                 ? "text-emerald-400 border-b-2 border-emerald-400 pb-1"
                 : "text-slate-300 hover:text-emerald-400"
             }`}>
-              Digital Solutions
+              Technology
             </Link>
 
             <Link href="/resourcing" className={`transition font-medium text-base ${
@@ -72,6 +72,14 @@ export function Navbar() {
                 : "text-slate-300 hover:text-emerald-400"
             }`}>
               Resourcing
+            </Link>
+
+            <Link href="/products" className={`transition font-medium text-base ${
+              isActive("/products")
+                ? "text-emerald-400 border-b-2 border-emerald-400 pb-1"
+                : "text-slate-300 hover:text-emerald-400"
+            }`}>
+              Products
             </Link>
 
             <Link href="/careers" className={`transition font-medium text-base ${
@@ -104,7 +112,7 @@ export function Navbar() {
             href="/contact"
             className="hidden md:inline-block bg-gradient-to-r from-emerald-600 to-emerald-700 text-white px-6 py-2 rounded-lg hover:shadow-lg transition font-semibold text-lg tracking-wider"
           >
-            Get Started
+            Collaborate
           </Link>
 
           {/* Mobile Menu Button */}
@@ -153,27 +161,27 @@ export function Navbar() {
             </Link>
 
             <Link
-              href="/products"
+              href="/engineering"
               className={`block px-4 py-2 rounded-lg transition ${
-                isActive("/products")
+                isActive("/engineering")
                   ? "bg-slate-700 text-emerald-400 font-semibold"
                   : "text-slate-300 hover:bg-slate-700"
               }`}
               onClick={() => setMobileMenuOpen(false)}
             >
-              Products
+              Engineering
             </Link>
 
             <Link
-              href="/digital-solutions"
+              href="/technology"
               className={`block px-4 py-2 rounded-lg transition ${
-                isActive("/digital-solutions")
+                isActive("/technology")
                   ? "bg-slate-700 text-emerald-400 font-semibold"
                   : "text-slate-300 hover:bg-slate-700"
               }`}
               onClick={() => setMobileMenuOpen(false)}
             >
-              Digital Solutions
+              Technology
             </Link>
 
             <Link
@@ -186,6 +194,18 @@ export function Navbar() {
               onClick={() => setMobileMenuOpen(false)}
             >
               Resourcing
+            </Link>
+
+            <Link
+              href="/products"
+              className={`block px-4 py-2 rounded-lg transition ${
+                isActive("/products")
+                  ? "bg-slate-700 text-emerald-400 font-semibold"
+                  : "text-slate-300 hover:bg-slate-700"
+              }`}
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Products
             </Link>
 
             <Link
@@ -225,10 +245,10 @@ export function Navbar() {
             </Link>
             <Link
               href="/contact"
-              className="block w-full bg-gradient-to-r from-blue-600 to-blue-700 text-white px-4 py-2 rounded-lg hover:shadow-lg transition font-semibold text-lg tracking-wider text-center mt-2"
+              className="block w-full bg-gradient-to-r from-emerald-600 to-emerald-700 text-white px-4 py-2 rounded-lg hover:shadow-lg transition font-semibold text-lg tracking-wider text-center mt-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Get Started
+              Collaborate
             </Link>
           </div>
         )}

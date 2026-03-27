@@ -39,7 +39,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/digital-solutions" className="hover:text-blue-400 transition font-medium">
+                <Link href="/engineering" className="hover:text-blue-400 transition font-medium">
                   Digital Solutions
                 </Link>
               </li>
@@ -83,9 +83,9 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-blue-400 transition font-medium">
-                  Blog
-                </a>
+                <span className="text-gray-500 font-medium cursor-default">
+                  Blog (Coming Soon)
+                </span>
               </li>
             </ul>
           </div>

@@ -16,6 +16,13 @@ export const metadata: Metadata = {
     "AI voice generation",
     "business intelligence",
   ],
+  openGraph: {
+    title: "AI Platforms Built by Infodra | Infodra Technologies",
+    description:
+      "Explore AI-powered SaaS platforms designed to automate workflows, generate content, and accelerate business innovation.",
+    url: "https://infodra.com/products",
+    type: "website",
+  },
 };
 
 const featuredPlatforms = [
