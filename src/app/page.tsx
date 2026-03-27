@@ -37,13 +37,16 @@ export default function Home() {
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="mb-12">
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight tracking-wide">
+            <h1 className="text-5xl md:text-7xl font-bold text-white mb-4 leading-tight tracking-wide">
               Engineering-Led AI & Digital
               <br className="mb-2" />
               Solutions <span className="text-white">for</span>
               <br className="mb-2" />
               <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">Scalable Growth</span>
             </h1>
+            <p className="text-base md:text-lg text-gray-300 tracking-[0.15em] mb-6 font-medium">
+              Engineering Services &nbsp;|&nbsp; IT Solutions &nbsp;|&nbsp; Talent Deployment &nbsp;|&nbsp; AI Products
+            </p>
             <p className="text-lg md:text-xl text-gray-200 max-w-4xl mx-auto mb-8 leading-relaxed">
               We combine enterprise engineering expertise with AI-driven innovation to design secure, scalable, and future-ready technology systems that deliver measurable business impact.
             </p>
