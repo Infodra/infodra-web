@@ -3,9 +3,9 @@ import Link from "next/link";
 import { MessageCircle, Globe, Zap, Users, Shield, Clock, Code2, Briefcase } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "AI Products | Digital Solutions | Engineering Services | Talent Acquisition | Infodra Technologies",
+  title: "AI Platforms | Digital Solutions | Engineering Services | Talent Acquisition | Infodra Technologies",
   description:
-    "Infodra Technologies offers AI Products, Digital Solutions, Engineering Services, and Talent Acquisition. Grow your business with cutting-edge technology and expert support.",
+    "Infodra Technologies offers AI Platforms, Digital Solutions, Engineering Services, and Talent Acquisition. Grow your business with cutting-edge technology and expert support.",
   keywords: [
     "AI solutions",
     "website development",
@@ -17,9 +17,9 @@ export const metadata: Metadata = {
     "engineering services",
   ],
   openGraph: {
-    title: "AI Products | Digital Solutions | Engineering Services | Infodra Technologies",
+    title: "AI Platforms | Digital Solutions | Engineering Services | Infodra Technologies",
     description:
-      "Infodra Technologies offers AI Products, Digital Solutions, Engineering Services, and Talent Acquisition.",
+      "Infodra Technologies offers AI Platforms, Digital Solutions, Engineering Services, and Talent Acquisition.",
     url: "https://infodra.com",
     type: "website",
   },
@@ -45,7 +45,7 @@ export default function Home() {
               <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">Scalable Growth</span>
             </h1>
             <p className="text-base md:text-lg text-gray-300 tracking-[0.15em] mb-6 font-medium">
-              Engineering Services &nbsp;|&nbsp; IT Solutions &nbsp;|&nbsp; Talent Deployment &nbsp;|&nbsp; AI Products
+              Engineering Services &nbsp;|&nbsp; IT Solutions &nbsp;|&nbsp; Talent Deployment &nbsp;|&nbsp; AI Platforms
             </p>
             <p className="text-lg md:text-xl text-gray-200 max-w-4xl mx-auto mb-8 leading-relaxed">
               We combine enterprise engineering expertise with AI-driven innovation to design secure, scalable, and future-ready technology systems that deliver measurable business impact.
@@ -63,17 +63,6 @@ export default function Home() {
               >
                 Explore Technology
               </Link>
-            </div>
-            <div className="mt-8">
-              <a
-                href="https://wa.me/918148146785"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-white font-semibold hover:text-gray-300 transition"
-              >
-                <MessageCircle size={20} />
-                Chat with us on WhatsApp: 81481 46785
-              </a>
             </div>
           </div>
         </div>
@@ -336,11 +325,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* AI PRODUCTS SECTION */}
+      {/* AI PLATFORMS SECTION */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-5xl font-bold text-center text-gray-900 mb-4">
-            AI Products
+            AI Platforms
           </h2>
           <p className="text-center text-gray-600 max-w-2xl mx-auto mb-16">
             Powerful AI tools designed to automate your business and unlock new possibilities

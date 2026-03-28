@@ -268,8 +268,8 @@ export default function TermsOfService() {
               <p className="font-semibold text-gray-900 mb-2">Infodra Technologies Private Limited</p>
               <p className="text-gray-600 mb-2">
                 <strong>Email:</strong>{" "}
-                <a href="mailto:business@infodratechnologies.com" className="text-blue-600 hover:underline">
-                  business@infodratechnologies.com
+                <a href="mailto:connect@infodratech.com" className="text-blue-600 hover:underline">
+                  connect@infodratech.com
                 </a>
               </p>
               <p className="text-gray-600 mb-2">

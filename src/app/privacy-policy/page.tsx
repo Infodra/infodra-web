@@ -110,7 +110,7 @@ export default function PrivacyPolicyPage() {
               If you submit your resume through our Careers page, we collect and store your information for recruitment and talent evaluation purposes. We retain applicant data only for as long as necessary for hiring consideration or as required by law.
             </p>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              <strong>Data Deletion Rights:</strong> Applicants may request deletion of their data by contacting us at <a href="mailto:business@infodratechnologies.com" className="text-blue-600 hover:underline">business@infodratechnologies.com</a> or via WhatsApp at 81481 46785.
+              <strong>Data Deletion Rights:</strong> Applicants may request deletion of their data by contacting us at <a href="mailto:connect@infodratech.com" className="text-blue-600 hover:underline">connect@infodratech.com</a> or via WhatsApp at 81481 46785.
             </p>
           </section>
 
@@ -242,8 +242,8 @@ export default function PrivacyPolicyPage() {
               <p className="text-gray-900 font-semibold mb-3">Infodra Technologies</p>
               <p className="text-gray-700 mb-2">
                 <strong>Email:</strong>{" "}
-                <a href="mailto:business@infodratechnologies.com" className="text-blue-600 hover:underline">
-                  business@infodratechnologies.com
+                <a href="mailto:connect@infodratech.com" className="text-blue-600 hover:underline">
+                  connect@infodratech.com
                 </a>
               </p>
               <p className="text-gray-700">

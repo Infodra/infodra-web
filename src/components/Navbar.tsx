@@ -79,7 +79,7 @@ export function Navbar() {
                 ? "text-emerald-400 border-b-2 border-emerald-400 pb-1"
                 : "text-slate-300 hover:text-emerald-400"
             }`}>
-              Products
+              AI Platforms
             </Link>
 
             <Link href="/careers" className={`transition font-medium text-base ${
@@ -205,7 +205,7 @@ export function Navbar() {
               }`}
               onClick={() => setMobileMenuOpen(false)}
             >
-              Products
+              AI Platforms
             </Link>
 
             <Link

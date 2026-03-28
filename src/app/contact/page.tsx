@@ -7,15 +7,7 @@ import { WhatsAppCTA } from "@/components/WhatsAppCTA";
 // For SEO, consider moving metadata to a layout.tsx in this folder
 
 const productsAndSolutions = [
-  { value: "", label: "Select a product or solution..." },
-  { category: "Products", items: [
-    { value: "ai-video-translator", label: "AI Video Translator" },
-    { value: "ai-user-manual-generation", label: "AI User Manual Generation" },
-    { value: "ai-document-translator", label: "AI Document Translator" },
-    { value: "bizlead-database", label: "BiZlead Database" },
-    { value: "stafftrack", label: "StaffTrack" },
-    { value: "all-products", label: "General Inquiry" },
-  ]},
+  { value: "", label: "Select a service..." },
   { category: "Engineering", items: [
     { value: "cad-design", label: "CAD Design & Engineering" },
     { value: "3d-modeling", label: "3D Modeling & Technical Drafting" },
@@ -32,7 +24,20 @@ const productsAndSolutions = [
     { value: "data-analytics", label: "Data Analytics & Business Intelligence" },
     { value: "cybersecurity", label: "Cybersecurity & Compliance" },
     { value: "mobile-development", label: "Mobile & Cross-Platform Development" },
+    { value: "ai-ml-engineer", label: "AI/ML Engineer" },
+    { value: "data-scientist", label: "Data Scientist" },
+    { value: "ml-ops-engineer", label: "MLOps Engineer" },
+    { value: "nlp-specialist", label: "NLP Specialist" },
+    { value: "computer-vision-engineer", label: "Computer Vision Engineer" },
+    { value: "ai-research-scientist", label: "AI Research Scientist" },
     { value: "all-technology", label: "All Technology Solutions / General Inquiry" },
+  ]},
+  { category: "Resourcing", items: [
+    { value: "contract-staffing", label: "Contract Staffing" },
+    { value: "permanent-hiring", label: "Permanent Hiring" },
+    { value: "engineering-resourcing", label: "Engineering Resource Deployment" },
+    { value: "it-resourcing", label: "IT Resource Deployment" },
+    { value: "all-resourcing", label: "All Resourcing Services / General Inquiry" },
   ]},
 ];
 
@@ -222,10 +227,10 @@ export default function ContactPage() {
                     Email
                   </h3>
                   <a
-                    href="mailto:business@infodratechnologies.com"
+                    href="mailto:connect@infodratech.com"
                     className="text-blue-600 hover:text-blue-700 break-all"
                   >
-                    business@infodratechnologies.com
+                    connect@infodratech.com
                   </a>
                 </div>
 
@@ -350,7 +355,7 @@ export default function ContactPage() {
                     htmlFor="productOrSolution"
                     className="block text-gray-700 font-semibold mb-2"
                   >
-                    Products / Engineering / Technology
+                    Engineering / Technology / Resourcing
                   </label>
                   <select
                     id="productOrSolution"
@@ -359,15 +364,7 @@ export default function ContactPage() {
                     onChange={handleChange}
                     className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition bg-white"
                   >
-                    <option value="">Select a product or solution...</option>
-                    <optgroup label="Products">
-                      <option value="ai-video-translator">AI Video Translator</option>
-                      <option value="ai-user-manual-generation">AI User Manual Generation</option>
-                      <option value="ai-document-translator">AI Document Translator</option>
-                      <option value="bizlead-database">BiZlead Database</option>
-                      <option value="stafftrack">StaffTrack</option>
-                      <option value="all-products">General Inquiry</option>
-                    </optgroup>
+                    <option value="">Select a service...</option>
                     <optgroup label="Engineering">
                       <option value="cad-design">CAD Design & Engineering</option>
                       <option value="3d-modeling">3D Modeling & Technical Drafting</option>
@@ -384,7 +381,20 @@ export default function ContactPage() {
                       <option value="data-analytics">Data Analytics & Business Intelligence</option>
                       <option value="cybersecurity">Cybersecurity & Compliance</option>
                       <option value="mobile-development">Mobile & Cross-Platform Development</option>
+                      <option value="ai-ml-engineer">AI/ML Engineer</option>
+                      <option value="data-scientist">Data Scientist</option>
+                      <option value="ml-ops-engineer">MLOps Engineer</option>
+                      <option value="nlp-specialist">NLP Specialist</option>
+                      <option value="computer-vision-engineer">Computer Vision Engineer</option>
+                      <option value="ai-research-scientist">AI Research Scientist</option>
                       <option value="all-technology">All Technology Solutions / General Inquiry</option>
+                    </optgroup>
+                    <optgroup label="Resourcing">
+                      <option value="contract-staffing">Contract Staffing</option>
+                      <option value="permanent-hiring">Permanent Hiring</option>
+                      <option value="engineering-resourcing">Engineering Resource Deployment</option>
+                      <option value="it-resourcing">IT Resource Deployment</option>
+                      <option value="all-resourcing">All Resourcing Services / General Inquiry</option>
                     </optgroup>
                   </select>
                 </div>

@@ -104,10 +104,10 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:business@infodratechnologies.com"
+                  href="mailto:connect@infodratech.com"
                   className="hover:text-blue-400 transition font-medium"
                 >
-                  business@infodratechnologies.com
+                  connect@infodratech.com
                 </a>
               </li>
               <li className="pt-2">

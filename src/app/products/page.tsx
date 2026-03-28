@@ -63,7 +63,7 @@ export default function Products() {
             AI Platforms Built by <span className="bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent">Infodra</span>
           </h1>
           <p className="text-lg md:text-xl mb-10 text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            Explore our AI-powered SaaS platforms designed to automate workflows, generate content, and accelerate business innovation. All Infodra AI products are now available on our dedicated AI platform.
+            Explore our AI-powered SaaS platforms designed to automate workflows, generate content, and accelerate business innovation. All Infodra AI platforms are now available on our dedicated AI platform.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
@@ -125,7 +125,7 @@ export default function Products() {
               rel="noopener noreferrer"
               className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
             >
-              View AI Products
+              View AI Platforms
             </a>
           </div>
         </div>
@@ -178,7 +178,7 @@ export default function Products() {
             rel="noopener noreferrer"
             className="inline-block bg-white text-emerald-600 px-8 py-4 rounded-lg font-bold text-lg hover:bg-gray-100 transition-colors shadow-lg"
           >
-            Explore All AI Products
+            Explore All AI Platforms
           </a>
         </div>
       </section>
@@ -187,7 +187,7 @@ export default function Products() {
       <section className="py-8 bg-white border-t border-gray-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <p className="text-sm text-gray-600">
-            Infodra AI products are now hosted on our dedicated AI platform.{" "}
+            Infodra AI platforms are now hosted on our dedicated AI platform.{" "}
             <a 
               href="https://www.infodra.ai"
               target="_blank"

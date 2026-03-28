@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Contact Infodra Technologies | Get in Touch",
   description:
-    "Contact Infodra Technologies for engineering services, technology solutions, resourcing, and AI products. Reach out for consultations, quotes, and partnerships.",
+    "Contact Infodra Technologies for engineering services, technology solutions, resourcing, and AI platforms. Reach out for consultations, quotes, and partnerships.",
   keywords: [
     "contact infodra",
     "get in touch",
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Contact Infodra Technologies | Get in Touch",
     description:
-      "Contact Infodra Technologies for engineering services, technology solutions, resourcing, and AI products.",
+      "Contact Infodra Technologies for engineering services, technology solutions, resourcing, and AI platforms.",
     url: "https://infodra.com/contact",
     type: "website",
   },

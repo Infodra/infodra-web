@@ -272,7 +272,7 @@ export function DigitalSolutionsContent() {
           {/* Right — Image */}
           <div className="flex justify-center lg:justify-end">
             <Image
-              src="/assembly.png"
+              src="/ennn.jpg"
               alt="Engineering Services"
               width={700}
               height={570}
@@ -508,7 +508,7 @@ export function DigitalSolutionsContent() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center px-8 py-3.5 border border-slate-500 text-slate-200 rounded-lg font-semibold hover:border-white hover:text-white transition gap-2"
               >
-                <BrainCircuit className="w-5 h-5" /> Explore our AI Products
+                <BrainCircuit className="w-5 h-5" /> Explore our AI Platforms
               </a>
             </div>
           </div>
