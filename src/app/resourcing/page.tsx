@@ -76,7 +76,7 @@ export default function ResourcingServices() {
           {/* Right — Image */}
           <div className="flex justify-center lg:justify-end">
             <Image
-              src="/resourcing.png"
+              src="/happy-team-working-office.jpg"
               alt="Resource Solutions"
               width={700}
               height={570}
@@ -296,6 +296,65 @@ export default function ResourcingServices() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* ────────── Featured Case Study ────────── */}
+      <section className="py-20 md:py-28 bg-gradient-to-br from-teal-50/40 via-white to-cyan-50/30 border-t border-gray-100">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <p className="text-teal-600 font-semibold tracking-wider uppercase text-sm mb-2">
+              Proven Results
+            </p>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+              Featured Case Study
+            </h2>
+          </div>
+
+          <Link href="/case-studies/rapid-cad-talent-deployment" className="group block">
+            <div className="bg-white rounded-2xl border-2 border-gray-200 hover:border-teal-300 hover:shadow-xl transition-all duration-300 p-10 md:p-12">
+              <div className="flex flex-wrap items-center gap-3 mb-6">
+                <span className="text-xs font-semibold px-3 py-1.5 rounded-full bg-teal-100 text-teal-700 border border-teal-200">
+                  Talent Deployment / Engineering Staffing
+                </span>
+                <span className="text-xs font-semibold px-3 py-1.5 rounded-full bg-green-100 text-green-800 border border-green-200">
+                  Completed
+                </span>
+              </div>
+
+              <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3 group-hover:text-teal-700 transition-colors">
+                Rapid Deployment of CAD Design Talent for Automotive Project
+              </h3>
+              <p className="text-gray-500 font-medium mb-4">
+                Automotive Manufacturer (via vendor partner) (Confidential)
+              </p>
+              <p className="text-gray-600 leading-relaxed mb-8 max-w-3xl">
+                Rapid deployment of qualified CAD design engineers for an automotive
+                project — same-day shortlisting and on-site placement within 1–10 days.
+              </p>
+
+              {/* Highlight Metrics */}
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mb-8">
+                <div className="bg-teal-50 rounded-xl p-6 text-center border border-teal-100">
+                  <p className="text-3xl font-bold text-teal-700 mb-1">Same Day</p>
+                  <p className="text-sm text-gray-600 font-medium">Candidate Shortlisting</p>
+                </div>
+                <div className="bg-teal-50 rounded-xl p-6 text-center border border-teal-100">
+                  <p className="text-3xl font-bold text-teal-700 mb-1">1–10 Days</p>
+                  <p className="text-sm text-gray-600 font-medium">On-Site Deployment</p>
+                </div>
+                <div className="bg-teal-50 rounded-xl p-6 text-center border border-teal-100">
+                  <p className="text-3xl font-bold text-teal-700 mb-1">100%</p>
+                  <p className="text-sm text-gray-600 font-medium">Skill-Match Accuracy</p>
+                </div>
+              </div>
+
+              <div className="flex items-center gap-2 text-teal-600 font-semibold group-hover:gap-3 transition-all">
+                Read Full Case Study
+                <ArrowRight className="w-5 h-5" />
+              </div>
+            </div>
+          </Link>
         </div>
       </section>
 

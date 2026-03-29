@@ -389,15 +389,12 @@ export default function Home() {
             and dedicated support.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="https://wa.me/918148146785"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/case-studies"
               className="inline-flex items-center justify-center gap-2 bg-white text-emerald-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition"
             >
-              <MessageCircle size={20} />
-              Chat on WhatsApp: 81481 46785
-            </a>
+              Explore Case Studies
+            </Link>
             <Link
               href="/contact"
               className="inline-block bg-transparent text-white px-8 py-4 rounded-lg font-semibold border-2 border-white hover:bg-white hover:text-emerald-600 transition"

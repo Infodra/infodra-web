@@ -82,6 +82,14 @@ export function Navbar() {
               AI Platforms
             </Link>
 
+            <Link href="/case-studies" className={`transition font-medium text-base ${
+              isActive("/case-studies")
+                ? "text-emerald-400 border-b-2 border-emerald-400 pb-1"
+                : "text-slate-300 hover:text-emerald-400"
+            }`}>
+              Case Studies
+            </Link>
+
             <Link href="/careers" className={`transition font-medium text-base ${
               isActive("/careers")
                 ? "text-emerald-400 border-b-2 border-emerald-400 pb-1"
@@ -97,14 +105,6 @@ export function Navbar() {
             }`}>
               About Us
             </Link>
-
-            <Link href="/contact" className={`transition font-medium text-base ${
-              isActive("/contact")
-                ? "text-emerald-400 border-b-2 border-emerald-400 pb-1"
-                : "text-slate-300 hover:text-emerald-400"
-            }`}>
-              Contact
-            </Link>
           </div>
 
           {/* Desktop CTA Button */}
@@ -112,7 +112,7 @@ export function Navbar() {
             href="/contact"
             className="hidden md:inline-block bg-gradient-to-r from-emerald-600 to-emerald-700 text-white px-6 py-2 rounded-lg hover:shadow-lg transition font-semibold text-lg tracking-wider"
           >
-            Collaborate
+            Contact Us
           </Link>
 
           {/* Mobile Menu Button */}
@@ -209,6 +209,18 @@ export function Navbar() {
             </Link>
 
             <Link
+              href="/case-studies"
+              className={`block px-4 py-2 rounded-lg transition ${
+                isActive("/case-studies")
+                  ? "bg-slate-700 text-emerald-400 font-semibold"
+                  : "text-slate-300 hover:bg-slate-700"
+              }`}
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Case Studies
+            </Link>
+
+            <Link
               href="/careers"
               className={`block px-4 py-2 rounded-lg transition ${
                 isActive("/careers")
@@ -234,21 +246,10 @@ export function Navbar() {
 
             <Link
               href="/contact"
-              className={`block px-4 py-2 rounded-lg transition ${
-                isActive("/contact")
-                  ? "bg-slate-700 text-emerald-400 font-semibold"
-                  : "text-slate-300 hover:bg-slate-700"
-              }`}
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Contact
-            </Link>
-            <Link
-              href="/contact"
               className="block w-full bg-gradient-to-r from-emerald-600 to-emerald-700 text-white px-4 py-2 rounded-lg hover:shadow-lg transition font-semibold text-lg tracking-wider text-center mt-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Collaborate
+              Contact Us
             </Link>
           </div>
         )}
