@@ -35,7 +35,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/products" className="hover:text-blue-400 transition font-medium">
-                  Products
+                  AI Solutions
                 </Link>
               </li>
               <li>
@@ -58,7 +58,7 @@ export function Footer() {
 
           {/* Products */}
           <div>
-            <h4 className="font-semibold mb-5 text-sm uppercase tracking-wider text-blue-400">Products</h4>
+            <h4 className="font-semibold mb-5 text-sm uppercase tracking-wider text-blue-400">AI & SaaS Platforms</h4>
             <ul className="space-y-3 text-gray-400">
               <li>
                 <a href="https://www.infodra.ai" target="_blank" rel="noopener noreferrer" className="hover:text-blue-400 transition font-medium">

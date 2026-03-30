@@ -66,20 +66,20 @@ export function Navbar() {
               Technology
             </Link>
 
+            <Link href="/products" className={`transition font-medium text-base ${
+              isActive("/products")
+                ? "text-emerald-400 border-b-2 border-emerald-400 pb-1"
+                : "text-slate-300 hover:text-emerald-400"
+            }`}>
+              AI Solutions
+            </Link>
+
             <Link href="/resourcing" className={`transition font-medium text-base ${
               isActive("/resourcing")
                 ? "text-emerald-400 border-b-2 border-emerald-400 pb-1"
                 : "text-slate-300 hover:text-emerald-400"
             }`}>
               Resourcing
-            </Link>
-
-            <Link href="/products" className={`transition font-medium text-base ${
-              isActive("/products")
-                ? "text-emerald-400 border-b-2 border-emerald-400 pb-1"
-                : "text-slate-300 hover:text-emerald-400"
-            }`}>
-              AI Platforms
             </Link>
 
             <Link href="/case-studies" className={`transition font-medium text-base ${
@@ -185,6 +185,18 @@ export function Navbar() {
             </Link>
 
             <Link
+              href="/products"
+              className={`block px-4 py-2 rounded-lg transition ${
+                isActive("/products")
+                  ? "bg-slate-700 text-emerald-400 font-semibold"
+                  : "text-slate-300 hover:bg-slate-700"
+              }`}
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              AI Solutions
+            </Link>
+
+            <Link
               href="/resourcing"
               className={`block px-4 py-2 rounded-lg transition ${
                 isActive("/resourcing")
@@ -194,18 +206,6 @@ export function Navbar() {
               onClick={() => setMobileMenuOpen(false)}
             >
               Resourcing
-            </Link>
-
-            <Link
-              href="/products"
-              className={`block px-4 py-2 rounded-lg transition ${
-                isActive("/products")
-                  ? "bg-slate-700 text-emerald-400 font-semibold"
-                  : "text-slate-300 hover:bg-slate-700"
-              }`}
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              AI Platforms
             </Link>
 
             <Link
