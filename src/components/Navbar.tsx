@@ -58,6 +58,14 @@ export function Navbar() {
               Engineering
             </Link>
 
+            <Link href="/consulting" className={`transition font-medium text-base ${
+              isActive("/consulting")
+                ? "text-emerald-400 border-b-2 border-emerald-400 pb-1"
+                : "text-slate-300 hover:text-emerald-400"
+            }`}>
+              Consulting
+            </Link>
+
             <Link href="/technology" className={`transition font-medium text-base ${
               isActive("/technology")
                 ? "text-emerald-400 border-b-2 border-emerald-400 pb-1"
@@ -82,14 +90,6 @@ export function Navbar() {
               Resourcing
             </Link>
 
-            <Link href="/case-studies" className={`transition font-medium text-base ${
-              isActive("/case-studies")
-                ? "text-emerald-400 border-b-2 border-emerald-400 pb-1"
-                : "text-slate-300 hover:text-emerald-400"
-            }`}>
-              Case Studies
-            </Link>
-
             <Link href="/careers" className={`transition font-medium text-base ${
               isActive("/careers")
                 ? "text-emerald-400 border-b-2 border-emerald-400 pb-1"
@@ -105,6 +105,7 @@ export function Navbar() {
             }`}>
               About Us
             </Link>
+
           </div>
 
           {/* Desktop CTA Button */}
@@ -173,6 +174,18 @@ export function Navbar() {
             </Link>
 
             <Link
+              href="/consulting"
+              className={`block px-4 py-2 rounded-lg transition ${
+                isActive("/consulting")
+                  ? "bg-slate-700 text-emerald-400 font-semibold"
+                  : "text-slate-300 hover:bg-slate-700"
+              }`}
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Consulting
+            </Link>
+
+            <Link
               href="/technology"
               className={`block px-4 py-2 rounded-lg transition ${
                 isActive("/technology")
@@ -206,18 +219,6 @@ export function Navbar() {
               onClick={() => setMobileMenuOpen(false)}
             >
               Resourcing
-            </Link>
-
-            <Link
-              href="/case-studies"
-              className={`block px-4 py-2 rounded-lg transition ${
-                isActive("/case-studies")
-                  ? "bg-slate-700 text-emerald-400 font-semibold"
-                  : "text-slate-300 hover:bg-slate-700"
-              }`}
-              onClick={() => setMobileMenuOpen(false)}
-            >
-              Case Studies
             </Link>
 
             <Link
