@@ -130,10 +130,10 @@ export function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:connect@infodratech.com"
+                  href="mailto:info@infodra.in"
                   className="hover:text-blue-400 transition font-medium"
                 >
-                  connect@infodratech.com
+                  info@infodra.in
                 </a>
               </li>
               <li className="pt-2">

@@ -375,7 +375,7 @@ export default function AboutPage() {
               Chat on WhatsApp
             </Link>
             <Link
-              href="mailto:connect@infodratech.com"
+              href="mailto:info@infodra.in"
               className="border-2 border-white text-white px-8 py-3.5 rounded-lg font-semibold text-lg tracking-wider hover:bg-emerald-400 hover:border-white active:bg-emerald-600 transition-all duration-200 inline-block"
             >
               Email Us
@@ -384,7 +384,7 @@ export default function AboutPage() {
 
           <div className="space-y-2 text-emerald-50">
             <p className="text-lg font-semibold">📞 WhatsApp: 93637 53540</p>
-            <p className="text-lg font-semibold">📧 Email: connect@infodratech.com</p>
+            <p className="text-lg font-semibold">📧 Email: info@infodra.in</p>
           </div>
         </div>
       </section>

@@ -230,10 +230,10 @@ export default function ContactPage() {
                    📧 Email
                   </h3>
                   <a
-                    href="mailto:connect@infodratech.com"
+                    href="mailto:info@infodra.in"
                     className="text-blue-600 hover:text-blue-700 break-all"
                   >
-                    connect@infodratech.com
+                    info@infodra.in
                   </a>
                 </div>
 
