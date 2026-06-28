@@ -190,11 +190,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* RESOURCING SECTION */}
+      {/* STAFFING SECTION */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-5xl font-bold text-center text-gray-900 mb-4">
-            Resourcing
+            Staffing
           </h2>
           <p className="text-center text-gray-600 max-w-2xl mx-auto mb-16">
             Skilled professionals across IT, Mechanical, R&D, and Engineering domains, delivering resource deployment solutions for industry leaders and innovative startups.
@@ -234,7 +234,7 @@ export default function Home() {
           </div>
           <div className="text-center mt-12">
             <Link
-              href="/resourcing"
+              href="/staffing"
               className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg font-semibold text-lg hover:bg-blue-700 transition"
             >
               Explore More →

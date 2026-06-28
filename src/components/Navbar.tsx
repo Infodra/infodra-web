@@ -82,12 +82,12 @@ export function Navbar() {
               AI Solutions
             </Link>
 
-            <Link href="/resourcing" className={`transition font-medium text-base ${
-              isActive("/resourcing")
+            <Link href="/staffing" className={`transition font-medium text-base ${
+              isActive("/staffing")
                 ? "text-emerald-400 border-b-2 border-emerald-400 pb-1"
                 : "text-slate-300 hover:text-emerald-400"
             }`}>
-              Resourcing
+              Staffing
             </Link>
 
             <Link href="/careers" className={`transition font-medium text-base ${
@@ -210,15 +210,15 @@ export function Navbar() {
             </Link>
 
             <Link
-              href="/resourcing"
+              href="/staffing"
               className={`block px-4 py-2 rounded-lg transition ${
-                isActive("/resourcing")
+                isActive("/staffing")
                   ? "bg-slate-700 text-emerald-400 font-semibold"
                   : "text-slate-300 hover:bg-slate-700"
               }`}
               onClick={() => setMobileMenuOpen(false)}
             >
-              Resourcing
+              Staffing
             </Link>
 
             <Link

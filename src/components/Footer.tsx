@@ -76,6 +76,18 @@ export function Footer() {
     </li>
 
     <li className="flex flex-col">
+      <span className="text-sm text-gray-500">Infodra SaaS</span>
+      <a
+        href="https://www.infodrasaas.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="hover:text-blue-400 transition font-medium"
+      >
+        www.infodrasaas.com
+      </a>
+    </li>
+
+    <li className="flex flex-col">
       <span className="text-sm text-gray-500">Infodra Web</span>
       <a
         href="https://infodraweb.com"

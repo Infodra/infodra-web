@@ -304,7 +304,7 @@ export default function CaseStudiesPage() {
         </div>
       </section>
 
-      {/* RESOURCING CASE STUDIES */}
+      {/* STAFFING CASE STUDIES */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center gap-3 mb-3">
@@ -312,11 +312,11 @@ export default function CaseStudiesPage() {
               <Users className="w-6 h-6 text-teal-700" />
             </div>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-              Resourcing Case Studies
+              Staffing Case Studies
             </h2>
           </div>
           <p className="text-gray-600 mb-10 max-w-2xl text-lg">
-            Talent deployment, engineering staffing, and rapid resourcing
+            Talent deployment, engineering staffing, and rapid staffing
             solutions for time-critical projects.
           </p>
 

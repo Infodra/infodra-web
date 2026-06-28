@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     "vendor audits",
     "quality management",
     "cost optimization",
-    "industrial training",
+    "industrial workshop",
     "Infodra Technologies",
   ],
   openGraph: {
@@ -97,9 +97,9 @@ const consultingServices = [
   },
   {
     icon: <GraduationCap className="w-10 h-10 text-indigo-600" />,
-    title: "Industrial Training & Skill Development",
+    title: "Industrial Workshop & Skill Development",
     points: [
-      "Technical training",
+      "Technical workshop",
       "Workforce development",
       "Capability enhancement",
     ],

@@ -358,7 +358,7 @@ export default function ContactPage() {
                     htmlFor="productOrSolution"
                     className="block text-gray-700 font-semibold mb-2"
                   >
-                    Engineering / Technology / Resourcing
+                    Engineering / Technology / Staffing
                   </label>
                   <select
                     id="productOrSolution"
@@ -392,12 +392,12 @@ export default function ContactPage() {
                       <option value="ai-research-scientist">AI Research Scientist</option>
                       <option value="all-technology">All Technology Solutions / General Inquiry</option>
                     </optgroup>
-                    <optgroup label="Resourcing">
+                    <optgroup label="Staffing">
                       <option value="contract-staffing">Contract Staffing</option>
                       <option value="permanent-hiring">Permanent Hiring</option>
                       <option value="engineering-resourcing">Engineering Resource Deployment</option>
                       <option value="it-resourcing">IT Resource Deployment</option>
-                      <option value="all-resourcing">All Resourcing Services / General Inquiry</option>
+                      <option value="all-resourcing">All Staffing Services / General Inquiry</option>
                     </optgroup>
                   </select>
                 </div>

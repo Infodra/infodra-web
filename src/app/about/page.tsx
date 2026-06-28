@@ -240,12 +240,12 @@ export default function AboutPage() {
               </ul>
             </div>
 
-            {/* Resourcing & Talent Solutions */}
+            {/* Staffing & Talent Solutions */}
             <div className="bg-gradient-to-br from-emerald-50 to-emerald-100 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
               <div className="w-14 h-14 bg-gradient-to-br from-emerald-600 to-teal-600 rounded-xl flex items-center justify-center mb-6">
                 <Users className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-3xl font-bold text-gray-900 mb-4">Resourcing & Talent Solutions</h3>
+              <h3 className="text-3xl font-bold text-gray-900 mb-4">Staffing & Talent Solutions</h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-start">
                   <span className="text-emerald-600 mr-3">•</span>

@@ -45,6 +45,15 @@ export default function RootLayout({
           })(window,document,'script','dataLayer','GTM-WKQB4NLK');
         ` }} />
         {/* End Google Tag Manager */}
+        {/* Google tag (gtag.js) */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y5ZVBZ8HWM" />
+        <script dangerouslySetInnerHTML={{ __html: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-Y5ZVBZ8HWM');
+        ` }} />
+        {/* End Google tag */}
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="shortcut icon" href="/favicon-32x32.png" />

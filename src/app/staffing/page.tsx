@@ -11,6 +11,7 @@ import {
   Shield,
   Handshake,
   Factory,
+  Briefcase,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
   description:
     "Deploy skilled engineering and technology professionals on demand. Choose your specialization — CAD engineers, software developers, DevOps, AI/ML — with flexible engagement models.",
   keywords: [
-    "Staffing services",
+    "staffing services",
     "engineering staffing",
     "technology staffing",
     "CAD engineers",
@@ -96,7 +97,7 @@ export default function StaffingServices() {
               Choose Your Specialization
             </p>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-              What Resources Do You Need?
+              What Staffing Do You Need?
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               We provide specialized professionals across two core domains.
@@ -104,7 +105,7 @@ export default function StaffingServices() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Engineering Card */}
             <div className="relative group p-10 rounded-2xl border-2 border-gray-200 bg-gradient-to-br from-sky-50/40 to-white hover:border-sky-400 hover:shadow-xl transition-all">
               <div className="mb-6 p-4 w-fit bg-sky-100 rounded-xl">
@@ -120,10 +121,12 @@ export default function StaffingServices() {
               </p>
               <ul className="space-y-2.5 mb-8">
                 {[
-                  "CAD / Design Engineers (CATIA, NX, SW, Creo)",
+                  "CAD / Design Engineers (CATIA, NX, SolidWorks, Creo...)",
                   "Mechanical & Product Engineers",
                   "Drafters & Documentation Specialists",
                   "DFM / Value Engineering Experts",
+                  "Prototype Build & Tooling Support Engineers" ,
+                  "Technical Publication & Service Manual Engineers"
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2.5 text-sm">
                     <CheckCircle2 className="w-4 h-4 text-sky-500 flex-shrink-0 mt-0.5" />
@@ -132,7 +135,7 @@ export default function StaffingServices() {
                 ))}
               </ul>
               <Link
-                href="/engineering"
+                href="/staffing/engineering"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-sky-500 text-white rounded-lg font-semibold hover:bg-sky-600 transition"
               >
                 Explore Engineering <ArrowRight className="w-5 h-5" />
@@ -154,8 +157,8 @@ export default function StaffingServices() {
               </p>
               <ul className="space-y-2.5 mb-8">
                 {[
-                  "Full-Stack & Backend Developers",
-                  "UI / UX & Frontend Developers",
+                  "Full-Stack Developers",
+                  "Frontend & Backend Developers",
                   "Cloud & DevOps Engineers",
                   "QA Engineers & Test Automation",
                   "Data Analytics & Specialists",
@@ -168,7 +171,7 @@ export default function StaffingServices() {
                 ))}
               </ul>
               <Link
-                href="/technology"
+                href="/staffing/technology"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-indigo-500 text-white rounded-lg font-semibold hover:bg-indigo-600 transition"
               >
                 Explore Technology <ArrowRight className="w-5 h-5" />
@@ -192,7 +195,7 @@ export default function StaffingServices() {
                   "Precision Machining Technicians",
                   "Production Support Technicians",
                   "Maintenance Technicians",
-                  "Assembly & Shop Floor Support",
+                  "Greenfield Setup & Machine Installation",
                 ].map((item, i) => (
                   <li key={i} className="flex items-start gap-2.5 text-sm">
                     <CheckCircle2 className="w-4 h-4 text-amber-500 flex-shrink-0 mt-0.5" />
@@ -205,6 +208,40 @@ export default function StaffingServices() {
                 className="inline-flex items-center gap-2 px-6 py-3 bg-amber-500 text-white rounded-lg font-semibold hover:bg-amber-600 transition"
               >
                 Explore Manufacturing <ArrowRight className="w-5 h-5" />
+              </Link>
+            </div>
+
+            {/* Business & Operations Staffing Card */}
+            <div className="relative group p-10 rounded-2xl border-2 border-gray-200 bg-gradient-to-br from-emerald-50/40 to-white hover:border-emerald-400 hover:shadow-xl transition-all flex flex-col">
+              <div className="mb-6 p-4 w-fit bg-emerald-100 rounded-xl">
+                <Briefcase className="w-12 h-12 text-emerald-600" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                Business &amp; Operations Staffing
+              </h3>
+              <p className="text-gray-600 mb-6 leading-relaxed">
+                Deploy skilled business professionals on Infodra payroll to support administration, operations, finance, HR, customer service, sales, procurement, supply chain, and business process functions across industries.
+              </p>
+              <ul className="space-y-2.5 mb-8">
+                {[
+                  "Business Analysts & Operations Executives",
+                  "HR, Admin & Office Support Professionals",
+                  "Customer Service & Client Relationship Executives",
+                  "Sales & Business Development Executives",
+                  "Supply Chain & Logistics Coordinators",
+                  "Finance & Accounting Associates",
+                ].map((item, i) => (
+                  <li key={i} className="flex items-start gap-2.5 text-sm">
+                    <CheckCircle2 className="w-4 h-4 text-emerald-500 flex-shrink-0 mt-0.5" />
+                    <span className="text-gray-700 font-medium">{item}</span>
+                  </li>
+                ))}
+              </ul>
+              <Link
+                href="/services/business-operations-staffing"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-emerald-500 text-white rounded-lg font-semibold hover:bg-emerald-600 transition mt-auto"
+              >
+                Explore Business <ArrowRight className="w-5 h-5" />
               </Link>
             </div>
           </div>
@@ -399,7 +436,7 @@ export default function StaffingServices() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-gradient-to-br from-slate-900 via-teal-950 to-slate-900 rounded-2xl p-12 md:p-16 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Not Sure Which Specialization You Need?
+              Not Sure Which Staffing You Need?
             </h2>
             <p className="text-lg text-slate-300 mb-8 max-w-2xl mx-auto">
               Tell us about your project and we&apos;ll recommend the right mix
@@ -416,13 +453,13 @@ export default function StaffingServices() {
                 href="/engineering"
                 className="inline-flex items-center justify-center px-8 py-3.5 border border-slate-500 text-slate-200 rounded-lg font-semibold hover:border-white hover:text-white transition gap-2"
               >
-                Engineering Resources
+                Engineering Staffing
               </Link>
               <Link
                 href="/technology"
                 className="inline-flex items-center justify-center px-8 py-3.5 border border-slate-500 text-slate-200 rounded-lg font-semibold hover:border-white hover:text-white transition gap-2"
               >
-                Technology Resources
+                Technology Staffing
               </Link>
             </div>
           </div>

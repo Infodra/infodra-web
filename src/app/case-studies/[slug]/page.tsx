@@ -358,7 +358,7 @@ export default async function CaseStudyDetailPage({
                         : related.category === "technology"
                         ? "Technology"
                         : related.category === "resourcing"
-                        ? "Resourcing"
+                        ? "Staffing"
                         : "Engineering"}
                     </span>
                     <h3 className="text-lg font-bold text-gray-900 mb-2 group-hover:text-teal-700 transition-colors leading-snug">
