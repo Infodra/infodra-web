@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Engineering Consulting & Operational Excellence | Infodra Technologies",
     description:
       "Consulting services to improve manufacturing performance, supplier capability, quality standards, and operational efficiency.",
-    url: "https://infodratechnologies.com/consulting",
+    url: "https://infodra.in/consulting",
     type: "website",
   },
 };

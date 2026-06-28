@@ -28,7 +28,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <a href="https://www.infodratechnologies.com/" className="flex items-center gap-3 flex-shrink-0">
+          <a href="https://www.infodra.in/" className="flex items-center gap-3 flex-shrink-0">
             <Image 
               src="/CompanyNameLogo.png" 
               alt="Infodra Technologies Logo" 

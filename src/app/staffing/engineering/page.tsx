@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Engineering Staffing Solutions | Infodra Technologies",
     description:
       "Deploy experienced engineering professionals on Infodra payroll for automotive, industrial, and manufacturing sectors.",
-    url: "https://infodratechnologies.com/staffing/engineering",
+    url: "https://infodra.in/staffing/engineering",
     type: "website",
   },
 };
@@ -34,7 +34,7 @@ const jsonLd = {
   provider: {
     "@type": "Organization",
     name: "Infodra Technologies",
-    url: "https://infodratechnologies.com",
+    url: "https://infodra.in",
   },
   description:
     "Infodra Technologies deploys experienced engineering professionals on payroll — CAD engineers, mechanical design engineers, manufacturing engineers, and technical specialists for automotive, industrial, and manufacturing sectors.",

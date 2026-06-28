@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Case Studies | Infodra Technologies",
     description:
       "Proven Engineering, AI, and Digital Solutions Delivered to Global Clients.",
-    url: "https://infodratechnologies.com/case-studies",
+    url: "https://infodra.in/case-studies",
     type: "website",
   },
 };

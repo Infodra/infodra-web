@@ -280,8 +280,8 @@ export default function TermsOfService() {
               </p>
               <p className="text-gray-600">
                 <strong>Website:</strong>{" "}
-                <a href="https://infodratechnologies.com" className="text-blue-600 hover:underline">
-                  www.infodratechnologies.com
+                <a href="https://infodra.in" className="text-blue-600 hover:underline">
+                  www.infodra.in
                 </a>
               </p>
             </div>

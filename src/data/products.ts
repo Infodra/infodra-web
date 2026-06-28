@@ -641,7 +641,7 @@ export const products: Product[] = [
     ],
     primaryCTA: {
       text: "Start Subscription",
-      url: "https://app.infodratechnologies.com/bizlead",
+      url: "https://app.infodra.in/bizlead",
       subtext: "Choose your plan, complete payment securely, and get instant access to BizLead dashboard.",
     },
     secondaryCTA: {

@@ -35,7 +35,7 @@ export async function generateMetadata({
     openGraph: {
       title: study.title,
       description: study.shortDescription,
-      url: `https://infodratechnologies.com/case-studies/${study.slug}`,
+      url: `https://infodra.in/case-studies/${study.slug}`,
       type: "article",
     },
   };

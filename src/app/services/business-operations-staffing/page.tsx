@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: "Business & Operations Staffing Services | Infodra Technologies",
     description:
       "Deploy skilled business professionals on Infodra payroll — HR, Finance, Admin, Sales, Customer Support, Procurement, Supply Chain, and Operations roles across industries.",
-    url: "https://infodratechnologies.com/services/business-operations-staffing",
+    url: "https://infodra.in/services/business-operations-staffing",
     type: "website",
   },
 };
@@ -67,7 +67,7 @@ const jsonLd = {
   provider: {
     "@type": "Organization",
     name: "Infodra Technologies",
-    url: "https://infodratechnologies.com",
+    url: "https://infodra.in",
   },
   description:
     "Infodra Technologies provides Business & Operations Staffing services including HR, Administration, Finance, Customer Support, Sales, Procurement, Logistics, Supply Chain, and Business Operations professionals on contract, payroll, and permanent staffing models.",

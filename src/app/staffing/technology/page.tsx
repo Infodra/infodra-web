@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Technology Staffing Solutions | Infodra Technologies",
     description:
       "Deploy skilled software and technology professionals on Infodra payroll for digital transformation, cloud, AI, and software product development.",
-    url: "https://infodratechnologies.com/staffing/technology",
+    url: "https://infodra.in/staffing/technology",
     type: "website",
   },
 };
@@ -34,7 +34,7 @@ const jsonLd = {
   provider: {
     "@type": "Organization",
     name: "Infodra Technologies",
-    url: "https://infodratechnologies.com",
+    url: "https://infodra.in",
   },
   description:
     "Infodra Technologies deploys skilled software professionals on payroll — full stack developers, cloud engineers, DevOps, QA automation, AI/ML engineers, and data specialists for enterprise digital transformation.",

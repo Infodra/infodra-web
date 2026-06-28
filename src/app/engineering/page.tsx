@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "Engineering Services | Infodra Technologies",
     description:
       "Professional CAD design, 3D modeling, product development support, and skilled engineering resource deployment for global enterprises.",
-    url: "https://infodratechnologies.com/engineering",
+    url: "https://infodra.in/engineering",
     type: "website",
   },
 };
