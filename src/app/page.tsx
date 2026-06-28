@@ -45,7 +45,7 @@ export default function Home() {
               <span className="bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">Scalable Growth</span>
             </h1>
             <p className="text-base md:text-lg text-gray-300 tracking-[0.15em] mb-6 font-medium">
-              Engineering Services &nbsp;|&nbsp; IT Solutions &nbsp;|&nbsp; Talent Deployment &nbsp;|&nbsp; AI Platforms
+              Engineering &nbsp;|&nbsp; Technology &nbsp;|&nbsp; AI Platforms &nbsp;|&nbsp; Staffing
             </p>
             <p className="text-lg md:text-xl text-gray-200 max-w-4xl mx-auto mb-8 leading-relaxed">
               We combine enterprise engineering expertise with AI-driven innovation to design secure, scalable, and future-ready technology systems that deliver measurable business impact.

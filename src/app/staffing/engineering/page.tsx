@@ -50,7 +50,7 @@ const data: StaffingPageData = {
   heroHighlight: "Solutions",
   heroSubtitle:
     "Deploy experienced engineering professionals on Infodra payroll to support product development, engineering design, manufacturing engineering, documentation, validation, and lifecycle management across automotive, industrial, aerospace, and manufacturing sectors.",
-  heroCta1: "Hire Engineers",
+  heroCta1: "Get Engineers",
   heroCta2: "Request Staffing Consultation",
   heroPreview: [
     "CAD Design & Mechanical Engineers",
@@ -230,7 +230,7 @@ const data: StaffingPageData = {
   ctaHeading: "Need Engineering Professionals?",
   ctaText:
     "Deploy experienced engineering talent quickly through Infodra — CAD, mechanical, manufacturing, quality, and validation engineers ready for your project.",
-  ctaBtn1: "Hire Engineers",
+  ctaBtn1: "Get Engineers",
   ctaBtn2: "Contact Us",
 };
 

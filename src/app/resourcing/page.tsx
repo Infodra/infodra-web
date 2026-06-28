@@ -201,7 +201,7 @@ export default function StaffingServices() {
                 ))}
               </ul>
               <Link
-                href="/manufacturing"
+                href="/staffing/manufacturing"
                 className="inline-flex items-center gap-2 px-6 py-3 bg-amber-500 text-white rounded-lg font-semibold hover:bg-amber-600 transition"
               >
                 Explore Manufacturing <ArrowRight className="w-5 h-5" />

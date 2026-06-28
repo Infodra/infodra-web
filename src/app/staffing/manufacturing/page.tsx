@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "Manufacturing Technical Support | Infodra Technologies",
     description:
       "Deploy skilled technical professionals for manufacturing operations, quality inspection, production support, maintenance, and shop-floor activities.",
-    url: "https://infodra.com/manufacturing",
+    url: "https://www.infodra.in/staffing/manufacturing",
     type: "website",
   },
 };
@@ -61,7 +61,7 @@ export default function ManufacturingPage() {
                 href="#resources"
                 className="bg-amber-500 text-white px-10 py-4 rounded-lg font-semibold text-xl tracking-wider hover:bg-amber-600 hover:shadow-2xl active:shadow-lg transition duration-200 shadow-lg"
               >
-                Explore Resources
+                Get Engineers
               </Link>
               <Link
                 href="/contact"

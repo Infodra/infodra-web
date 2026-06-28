@@ -55,7 +55,7 @@ export const metadata: Metadata = {
     title: "Business & Operations Staffing Services | Infodra Technologies",
     description:
       "Deploy skilled business professionals on Infodra payroll — HR, Finance, Admin, Sales, Customer Support, Procurement, Supply Chain, and Operations roles across industries.",
-    url: "https://infodra.in/services/business-operations-staffing",
+    url: "https://www.infodra.in/staffing/business-operations",
     type: "website",
   },
 };
@@ -219,7 +219,7 @@ export default function BusinessOperationsStaffingPage() {
                   href="/contact"
                   className="bg-emerald-500 text-white px-10 py-4 rounded-lg font-semibold text-lg tracking-wide hover:bg-emerald-600 hover:shadow-2xl transition duration-200 shadow-lg"
                 >
-                  Hire Business Professionals
+                  Get Professionals
                 </Link>
                 <Link
                   href="/contact"

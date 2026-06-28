@@ -44,13 +44,13 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/case-studies" className="hover:text-blue-400 transition font-medium">
-                  Case Studies
+                <Link href="/technology" className="hover:text-blue-400 transition font-medium">
+                  Technology
                 </Link>
               </li>
               <li>
-                <Link href="/manufacturing" className="hover:text-blue-400 transition font-medium">
-                  Manufacturing
+                <Link href="/staffing" className="hover:text-blue-400 transition font-medium">
+                  Staffing
                 </Link>
               </li>
             </ul>

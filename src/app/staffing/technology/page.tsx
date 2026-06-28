@@ -50,7 +50,7 @@ const data: StaffingPageData = {
   heroHighlight: "Solutions",
   heroSubtitle:
     "Deploy skilled software professionals on Infodra payroll to accelerate digital transformation, enterprise applications, cloud modernisation, AI initiatives, and software product development across industries.",
-  heroCta1: "Hire Technology Talent",
+  heroCta1: "Get Technology Talent",
   heroCta2: "Request Consultation",
   heroPreview: [
     "Full Stack & Backend Developers",
@@ -249,7 +249,7 @@ const data: StaffingPageData = {
   ctaHeading: "Looking for Technology Professionals?",
   ctaText:
     "Deploy experienced software engineers and technology specialists with Infodra's flexible staffing solutions — from React developers to cloud architects, deployed fast.",
-  ctaBtn1: "Hire Technology Talent",
+  ctaBtn1: "Get Technology Talent",
   ctaBtn2: "Speak With Our Team",
 };
 
